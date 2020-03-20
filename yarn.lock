@@ -3586,6 +3586,16 @@ onetime@^5.1.0:
   dependencies:
     mimic-fn "^2.1.0"
 
+open-cli@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/open-cli/-/open-cli-5.0.0.tgz#fc8286ac11bad487a7798b4fb19561839420eebf"
+  dependencies:
+    file-type "^11.0.0"
+    get-stdin "^7.0.0"
+    meow "^5.0.0"
+    open "^6.3.0"
+    temp-write "^4.0.0"
+
 open@^6.3.0, open@^6.4.0:
   version "6.4.0"
   resolved "https://registry.yarnpkg.com/open/-/open-6.4.0.tgz#5c13e96d0dc894686164f18965ecfe889ecfc8a9"
@@ -3595,16 +3605,6 @@ open@^6.3.0, open@^6.4.0:
 opencollective-postinstall@^2.0.2:
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/opencollective-postinstall/-/opencollective-postinstall-2.0.2.tgz#5657f1bede69b6e33a45939b061eb53d3c6c3a89"
-
-opn-cli@^5.0.0:
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/opn-cli/-/opn-cli-5.0.0.tgz#e576fca5991333465d092a05ddfe8bf796c1bd0c"
-  dependencies:
-    file-type "^11.0.0"
-    get-stdin "^7.0.0"
-    meow "^5.0.0"
-    open "^6.3.0"
-    temp-write "^4.0.0"
 
 optimist@^0.6.1:
   version "0.6.1"
