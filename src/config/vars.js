@@ -14,15 +14,6 @@ const envVarsSchema = joi.object({
     .required(),
   PORT: joi.number()
     .required(),
-  LOGGER_LEVEL: joi.string()
-    .allow(['error', 'warn', 'info', 'verbose', 'debug', 'silly'])
-    .default('info'),
-  LOGGER_ENABLED: joi.boolean()
-    .truthy('TRUE')
-    .truthy('true')
-    .falsy('FALSE')
-    .falsy('false')
-    .default(true),
 }).unknown()
   .required();
 
@@ -48,5 +39,8 @@ module.exports = {
     port: process.env.EMAIL_PORT,
     username: process.env.EMAIL_USERNAME,
     password: process.env.EMAIL_PASSWORD,
+  },
+  smsConfig: {
+    key: process.env.SMS_API_KEY,
   },
 };
